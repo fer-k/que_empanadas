@@ -4,6 +4,15 @@
 	height: 62px;
 }
 
+.logoheader a{
+	background-image: url("../imgs/logo_header.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 165px;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
 .botonesbarra_izq li a{
 	color: #F4AD15;
 	padding-top: 22px;
@@ -30,14 +39,34 @@
 	background-color: #F3E979 !important;
 }
 
-.logoheader a{
-	background-image: url("../imgs/logo_header.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 165px;
-	margin-top: 12px;
-	margin-right: 20px;
+.background-about {
+	border-bottom: 1px solid #00240B;
 }
 
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #F4AD15;
+	font-size: 40px;
+}
 
+.about p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #00240B;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
 
+.about {
+	padding-top: 60px;
+	padding-bottom: 0px;
+	text-align: center;
+	height: 600px;
+}
+
+.sabores {
+	padding-top: 60px;
+	text-align: center;
+
+}
