@@ -1,0 +1,51 @@
+.barranav {
+	background-color: #00240B;
+} 
+
+.barranav a {
+	color: #E7AC21;
+}
+
+.logo-header {
+	background-image: url("../imgs/logo_header.png");
+	width: 155px;
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	background-size: 155px;
+	background-origin: content-box;
+}
+
+.item_menu li a {
+	height: 65px;
+	padding-top: 23px;
+}
+
+
+.no-padding {
+	padding: 0px;
+}
+
+
+.slider1 {
+	background-image: url("../imgs/slider1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 815px;
+}
+
+.slider2 {
+	background-image: url("../imgs/slider2.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 815px;
+}
+
+.slider3 {
+	background-image: url("../imgs/slider3.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 815px;
+}
