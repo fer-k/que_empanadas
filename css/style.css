@@ -1,3 +1,7 @@
+body {
+	font-family: font-family: 'Montserrat', sans-serif;
+}
+
 .backgroundbar {
 	background-color: #00240B;
 	color: #F4AD15;
@@ -17,7 +21,6 @@
 	color: #F4AD15;
 	padding-top: 22px;
 	height: 62px;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
@@ -30,7 +33,6 @@
 	color: #F3E979;
 	padding-top: 22px;
 	height: 62px;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
@@ -40,21 +42,31 @@
 }
 
 .background-about {
-	border-bottom: 1px solid #00240B;
+	border-bottom: solid 1px #00240B;
 }
 
 h2 {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: #F4AD15;
 	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	font-weight: 700;
+	color: #00240B;
+	font-size: 35px;
+}
+
+h4 {
+	font-weight: 700;
+	color: #F4AD15;
+	font-size: 25px;
 }
 
 .about p {
-	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	color: #00240B;
-	padding-top: 30px;
 	padding-bottom: 60px;
 }
 
@@ -63,10 +75,77 @@ h2 {
 	padding-bottom: 0px;
 	text-align: center;
 	height: 600px;
+	border-bottom: solid 1px #00240B;
 }
 
 .sabores {
 	padding-top: 60px;
 	text-align: center;
+	padding-bottom: 60px;
+}
 
+.sabores p {
+	font-size: 17px;
+	color: #00240B;
+	padding: 15px;
+	padding-bottom: 30px;
+	border-bottom: solid 1px #F4AD15;
+}
+
+.sabor h3 {
+	padding-top: 30px;
+}
+
+.img-responsive {
+	margin: 0 auto;
+	border: solid 3px #F4AD15;
+	width: 240px;
+}
+
+
+.contacto {
+	background-color: #00240B;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contacto h2 {
+	text-align: center;
+}
+
+.formulario {
+	color: #F4AD15;
+}
+
+.formulario input {
+	border: none;
+}
+
+.formulario .btn {
+	background-color: #F1E779;
+	border: none;
+	font-weight: 700;
+	color: #00240B;
+}
+
+.formulario .btn:hover {
+	background-color: #F4AD15;
+}
+
+.mapa {
+	padding-top: 15px;
+}
+
+.mapa p {
+	color: #F4AD15;
+	padding-top: 15px;
+}
+
+footer {
+	padding: 15px;
+	padding-bottom: 10px;
+	background-color: #00240B;
+	text-align: right;
+	color: #F4AD15;
+	border-top: solid 1px #F4AD15;
 }
