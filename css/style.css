@@ -2,6 +2,10 @@ body {
 	font-family: font-family: 'Montserrat', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .backgroundbar {
 	background-color: #00240B;
 	color: #F4AD15;
@@ -64,18 +68,76 @@ h4 {
 	font-size: 25px;
 }
 
-.about p {
+p {
 	font-size: 20px;
 	color: #00240B;
-	padding-bottom: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.small {
+	font-size: 20px;
+	color: #F4AD15;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.item .foto-principal {
+	 margin: 0 auto;
+	 padding-left: 30px;
+	 padding-right: 30px;
+	 padding-bottom: 170px;
+}
+
+.logo-big {
+	padding: 0px;
+	padding-bottom: 50px;
+}
+
+
+.about h2 {
+	padding-top: 0px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.divisor {
+	border-bottom: solid 1px #F4AD15;
+	width: 50%;
+	margin: 0 auto;
 }
 
 .about {
 	padding-top: 60px;
 	padding-bottom: 0px;
 	text-align: center;
-	height: 600px;
-	border-bottom: solid 1px #00240B;
+}
+
+.about h2 {
+	font-size: 55px;
+
+}
+
+.about h3 {
+	padding: 0px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.about p {
+	padding-bottom: 5px;
+	padding-top: 30px;
+}
+
+.about .img-responsive {
+	margin: 0 auto;
+	padding-bottom: 60px;
+	padding-top: 45px;
+}
+
+.boton-pedidos{
+	margin-bottom: 30px;
 }
 
 .sabores {
@@ -87,8 +149,6 @@ h4 {
 .sabores p {
 	font-size: 17px;
 	color: #00240B;
-	padding: 15px;
-	padding-bottom: 30px;
 	border-bottom: solid 1px #F4AD15;
 }
 
@@ -96,7 +156,7 @@ h4 {
 	padding-top: 30px;
 }
 
-.img-responsive {
+.sabores .img-responsive {
 	margin: 0 auto;
 	border: solid 3px #F4AD15;
 	width: 240px;
@@ -106,7 +166,7 @@ h4 {
 .contacto {
 	background-color: #00240B;
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .contacto h2 {
@@ -121,23 +181,42 @@ h4 {
 	border: none;
 }
 
-.formulario .btn {
+.boton-pedidos {
 	background-color: #F1E779;
 	border: none;
 	font-weight: 700;
 	color: #00240B;
 }
 
-.formulario .btn:hover {
+.formulario .btn, .boton-pedidos {
+	background-color: #F1E779;
+	border: none;
+	font-weight: 700;
+	color: #00240B;
+	margin-bottom: 30px;
+}
+
+.formulario .btn:hover, .boton-pedidos:hover {
 	background-color: #F4AD15;
 }
 
+.btn a {
+	text-decoration: none;
+	color: #00240B;
+}
+
 .mapa {
-	padding-top: 15px;
+	padding-top: 23px;
+}
+
+.contenedor-mapa {
+	border-radius: 5px;
+	border: solid 2px #F4AD15; 
 }
 
 .mapa p {
 	color: #F4AD15;
+	font-size: 15px;
 	padding-top: 15px;
 }
 
