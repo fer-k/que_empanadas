@@ -19,6 +19,7 @@ a {
 	width: 165px;
 	margin-top: 12px;
 	margin-right: 20px;
+	margin-left: 15px;
 }
 
 .botonesbarra_izq li a{
@@ -227,4 +228,34 @@ footer {
 	text-align: right;
 	color: #F4AD15;
 	border-top: solid 1px #F4AD15;
+}
+
+.menu-mobile {
+	background-color: #F3E979 !important;
+	width: 30px !important;
+    height: 4px !important;
+    border-radius: 5px !important;
+    margin-top: 6px !important;
+}
+
+.contenedor-toggle {
+	margin-top: 4px;
+}
+
+@media only screen and (max-width: 766px) {
+.collapsing, .in {
+	background-color: #00240B;
+	margin: 0px;
+}
+
+.collapsing ul li a, .in ul li a {
+	color: #F4AD15 !important;
+	border-top: solid 1px #F3E979 !important;
+}
+
+.collapsing ul li a:hover, .in ul li a:hover {
+	color: #00240B !important;
+	background-color: #F3E979 !important;
+}
+
 }
