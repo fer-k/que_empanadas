@@ -3,7 +3,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .backgroundbar {
@@ -121,7 +121,7 @@ p {
 }
 
 .about h3 {
-	padding: 0px;
+	padding: 20px;
 	padding-bottom: 15px;
 	margin: 0px;
 }
@@ -154,7 +154,7 @@ p {
 }
 
 .sabor h3 {
-	padding-top: 30px;
+	padding-top: 60px;
 }
 
 .sabores .img-responsive {
@@ -222,12 +222,30 @@ p {
 }
 
 footer {
-	padding: 15px;
-	padding-bottom: 10px;
 	background-color: #00240B;
-	text-align: right;
-	color: #F4AD15;
+	text-align: left;
 	border-top: solid 1px #F4AD15;
+}
+
+.pie p {
+	color: #F4AD15;
+	padding-bottom: 10px;
+	font-size: 15px;
+	float: left;
+}
+
+
+.pie a {
+	color: #F4AD15;
+    font-size: 25px;
+    padding-top: 7px;
+	text-decoration: none;
+	text-align: right;
+	float: right;
+}
+
+.pie a:hover {
+	color: #F3E979;
 }
 
 .menu-mobile {
@@ -251,6 +269,11 @@ footer {
 .collapsing ul li a, .in ul li a {
 	color: #F4AD15 !important;
 	border-top: solid 1px #F3E979 !important;
+
+}
+
+.fb {
+	display: none !important;
 }
 
 .collapsing ul li a:hover, .in ul li a:hover {
@@ -258,4 +281,3 @@ footer {
 	background-color: #F3E979 !important;
 }
 
-}

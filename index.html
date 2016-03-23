@@ -50,13 +50,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav botonesbarra_izq">
-          <li class="active itembarra"><a href="http://www.queempanadas.com">HOME</a></li>
-          <li><a href="http://www.queempanadas.com/about">NOSOTROS</a></li>
-          <li><a href="http://www.queempanadas.com/sabores">SABORES</a></li>
-          <li><a href="http://www.queempanadas.com/contacto">CONTACTO</a></li>
+          <li class="active"><a href="#informacion">NOSOTROS</a></li>
+          <li><a href="#producto">SABORES</a></li>
+          <li><a href="#contactanos">CONTACTO</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right botonesbarra_der">
-          <li><a href="https://www.facebook.com/Queempanadas"><i class="fa fa-facebook"></i></a></li>
+          <li class="fb"><a href="https://www.facebook.com/Queempanadas"><i class="fa fa-facebook"></i></a></li>
           <li><li><a href="http://apprapimesas.dinaserver.com.ar/?group=empanadas#"><i class="fa fa-motorcycle"></i>  Pedidos</a></li>
         </ul>
       </div>
@@ -90,7 +89,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </div>
   </header>
 
-  <section class="container-fluid background-about">
+  <section id="informacion" class="container-fluid background-about">
     <article class="container about">
       
       <h3>HACÉ TU PEDIDO*</h3>
@@ -112,7 +111,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </article>
   </section>
 
-  <section class="container-fluid sabores">
+  <section id="producto" class="container-fluid sabores">
     <article class="container">
     <h2>SABORES</h2>
     
@@ -164,7 +163,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </div>
   </section >
 
-  <section class="container-fluid contacto">
+  <section id="contactanos" class="container-fluid contacto">
 
     <article class="container contenedor-contacto">
 
@@ -205,7 +204,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
   </section>
   
   <footer class="container-fluid">
-    <p>2016 Todos los derechos reservados.</p>
+      <div class="pie">
+        <p>2016 Todos los derechos reservados.</p>
+        <a href="#"><i class="fa fa-facebook-square"></a></i>
+        </div>
   </footer>
+
 </body>
 </html>
