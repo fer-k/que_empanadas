@@ -1,5 +1,9 @@
 body {
-	font-family: font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 a {
@@ -22,6 +26,8 @@ a {
 	margin-left: 15px;
 }
 
+
+/*nav ppal*/
 .botonesbarra_izq li a{
 	color: #F4AD15;
 	padding-top: 22px;
@@ -50,11 +56,23 @@ a {
 	border-bottom: solid 1px #00240B;
 }
 
+
+/*tipografias*/
+
+.foto2 h1 {
+	color: #F3E979;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 70px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
 h2 {
 	font-weight: 700;
 	color: #F4AD15;
 	font-size: 40px;
-	padding-bottom: 30px;
 }
 
 h3 {
@@ -91,11 +109,63 @@ p {
 	 padding-bottom: 170px;
 }
 
+
+/*logo slider 1*/
 .logo-big {
 	padding: 0px;
 	padding-bottom: 50px;
 }
 
+
+/*slider3*/
+#slider3 {
+	background-color: #00240B;
+	height: 720px;
+	box-sizing: border-box;
+}
+
+#slider3 .carousel-caption {
+	text-shadow: none;
+	margin-bottom: 90px;
+}
+
+#slider3 h2 {
+	color: #F4AD15;	
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+#slider3 p {
+	border-top: solid 1px #F1E779; 
+	padding-top: 15px;
+	margin-top: 45px;
+	color: #F1E779;
+	font-weight: 400;
+}
+
+#slider3 span {
+	color: #F4AD15;
+	font-weight: bold;
+}
+
+
+/*boton de pedidos*/
+#boton-flotante {
+	position: fixed;
+	top: 90px;
+	right: 30px;
+	z-index: 1000;
+	transition: transform 250ms ease-in-out;
+	-ms-transition: transform 250ms ease-in-out;
+	-webkit-transition: transform 250ms ease-in-out;
+}
+
+#boton-flotante:hover {
+	transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.2);
+	-webkit-transform: rotate(360deg) scale(1.2);
+	cursor: pointer;
+}
 
 .about h2 {
 	padding-top: 0px;
@@ -109,6 +179,9 @@ p {
 	margin: 0 auto;
 }
 
+
+
+/*about*/
 .about {
 	padding-top: 60px;
 	padding-bottom: 0px;
@@ -154,7 +227,7 @@ p {
 }
 
 .sabor h3 {
-	padding-top: 60px;
+	padding-top: 30px;
 }
 
 .sabores .img-responsive {
@@ -172,6 +245,7 @@ p {
 
 .contacto h2 {
 	text-align: center;
+	padding-bottom: 30px;
 }
 
 .formulario {
