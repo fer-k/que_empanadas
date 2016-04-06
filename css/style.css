@@ -356,23 +356,30 @@ footer {
 }
 
 @media only screen and (max-width: 766px) {
-.collapsing, .in {
-	background-color: #00240B;
-	margin: 0px;
+	.collapsing, .in {
+		background-color: #00240B;
+		margin: 0px;
+	}
+	.collapsing ul li a, .in ul li a {
+		color: #F4AD15 !important;
+		border-top: solid 1px #F3E979 !important;
+	}
+	.fb {
+		display: none !important;
+	}
+	.collapsing ul li a:hover, .in ul li a:hover {
+		color: #00240B !important;
+		background-color: #F3E979 !important;
+	}
+	#myCarousel .carousel-inner .item .carousel-caption.slider1 {
+		margin-top: -70px;
+	}
+	#myCarousel .carousel-inner .item .carousel-caption.slider2 h1{
+		font-size: 35px;
+    	line-height: 35px;
+	}
+	#myCarousel .carousel-inner .item .carousel-caption.slider3 {
+		margin-top: -270px;
+	}
+
 }
-
-.collapsing ul li a, .in ul li a {
-	color: #F4AD15 !important;
-	border-top: solid 1px #F3E979 !important;
-
-}
-
-.fb {
-	display: none !important;
-}
-
-.collapsing ul li a:hover, .in ul li a:hover {
-	color: #00240B !important;
-	background-color: #F3E979 !important;
-}
-
