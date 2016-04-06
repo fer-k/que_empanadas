@@ -56,10 +56,39 @@ a {
 	border-bottom: solid 1px #00240B;
 }
 
+/*imagenes del slider*/
+#slider1 {
+	background-image: url('../imgs/slider1a.jpg');
+}
 
+#slider2 {
+	background-image: url('../imgs/slider2.jpg');
+}
+
+#myCarousel .carousel-inner .item {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 720px;
+}
+#myCarousel .carousel-inner .item .carousel-caption {
+	bottom: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	top: 50%;	
+}
+#myCarousel .carousel-inner .item .carousel-caption.slider1 {
+	margin-top: -70px;
+}
+#myCarousel .carousel-inner .item .carousel-caption.slider2 {
+	margin-top: -70px;
+}
+#myCarousel .carousel-inner .item .carousel-caption.slider3 {
+	margin-top: -180px;
+}
 /*tipografias*/
 
-.foto2 h1 {
+.carousel-caption.slider2 h1 {
 	color: #F3E979;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -101,14 +130,6 @@ p {
 	padding-bottom: 15px;
 	margin: 0px;
 }
-
-.item .foto-principal {
-	 margin: 0 auto;
-	 padding-left: 30px;
-	 padding-right: 30px;
-	 padding-bottom: 170px;
-}
-
 
 /*logo slider 1*/
 .logo-big {
